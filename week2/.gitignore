@@ -1,0 +1,23 @@
+# Executables
+*.exe
+
+# Object files
+*.obj
+*.o
+
+# Debug files
+*.pdb
+*.ilk
+
+# Visual Studio
+.vs/
+*.VC.db
+
+# Build folders
+build/
+bin/
+
+# macOS
+.DS_Store
+
+.vscode/tasks.json
