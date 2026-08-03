@@ -1,0 +1,29 @@
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+
+# VS Code
+.vscode/
+
+# Build folders
+build/
+output/
+
+# Temporary files
+*.log 
+
+# Ignore executable files
+*.exe
+
+# Ignore VS Code configuration
+.vscode/
+
+# Or, if you only want to ignore tasks.json instead of the entire folder:
+# .vscode/tasks.json
