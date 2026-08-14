@@ -12,7 +12,7 @@ int main()
     }
 
     // Display even numbers
-    printf("\n\nEven elements: ");
+    printf("\nEven elements: ");
     for (i = 0; i < n; i++) {
         if (arr[i] % 2 == 0) {
             printf("%d ", arr[i]);
