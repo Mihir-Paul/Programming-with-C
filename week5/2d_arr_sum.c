@@ -3,30 +3,28 @@
 int main()
 {
     int a[3][3];
-    int i, j;
+    int i, j, sum = 0;
 
-    
+    // Input elements
     for (i = 0; i < 3; i++)
     {
         for (j = 0; j < 3; j++)
         {
-            printf("Enter the value of 2D array: ");
+            printf("Enter element: ");
             scanf("%d", &a[i][j]);
         }
     }
 
-    
-    printf("\n2D Array is:\n");
-
+    // Calculate sum
     for (i = 0; i < 3; i++)
     {
         for (j = 0; j < 3; j++)
         {
-            printf("%d ", a[i][j]);
+            sum = sum + a[i][j];
         }
-        printf("\n");
     }
 
-    
+    printf("\nSum of all elements = %d", sum);
+
     return 0;
 }
