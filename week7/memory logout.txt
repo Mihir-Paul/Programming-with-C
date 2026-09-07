@@ -1,0 +1,9 @@
+Two Memory Segment 
+1.Text/Code Segment : Contains machine code 
+2.Data Segment
+2.a) Initialized: 1.Read only 2.Write only 
+2.b) Uninitialized
+2.c)Stack
+2.d)Heap 
+
+
